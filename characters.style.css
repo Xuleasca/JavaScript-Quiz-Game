@@ -8,15 +8,16 @@
 
   .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    
   }
 
   .card-container {
       border: 1px solid rgba(0, 0, 0, 0.027);
       width: 500px;
       height: 700px;
-      margin-top: 100px;
-      margin-left: 100px;
+      margin-top: auto;
+      margin-left: auto;
       border-radius: 15px;
       box-sizing: border-box;
       box-shadow: 2px 2px 2px 2px #131111;
@@ -225,3 +226,83 @@
 }
 
 
+/* // Button // */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.start-quiz-btn {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    background: yellow;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	font-size: 35px;
+    padding: 20px;
+    transition: all .05s ease-in-out;
+    box-shadow: 
+    inset -6px -6px 0px 0px #a59d2e,
+    10px 10px 0px 1px rgba(0,0,0,1);;
+
+}
+
+.start-quiz-btn:active {
+	box-shadow: inset 10px 10px 0px 0px #a59d2e;
+}
+
+.start-quiz-btn:before, .start-quiz-btn:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-sizing: content-box;
+}
+
+.start-quiz-btn:before {
+	top: -10px;
+	left: 0;
+	border-top: 10px black solid;
+	border-bottom: 10px black solid;
+}
+
+.start-quiz-btn:after {
+	left: -10px;
+	top: 0;
+	border-left: 10px black solid;
+	border-right: 10px black solid;
+}
+
+.start-quiz-btn--reset {
+    background: white;
+    transition: all .05s ease-in-out;
+    box-shadow: 
+    inset -6px -6px 0px 0px #8C2022,
+    10px 10px 0px 1px rgba(0,0,0,1);;
+}
+
+.start-quiz-btn--reset:active {
+	box-shadow: inset 6px 6px 0px 0px #8C2022;
+}
+
+.start-quiz-btn--proceed {
+	background: #F7D51D;
+	box-shadow: inset -6px -6px 0px 0px #E59400;
+}
+
+.start-quiz-btn--proceed:hover, .start-quiz-btn--proceed:focus {
+	background: #F2C409;
+	box-shadow: inset -10px -10px 0px 0px #E59400;
+}
+
+.start-quiz-btn--proceed:active {
+	box-shadow: inset 6px 6px 0px 0px #E59400;
+}
