@@ -143,7 +143,7 @@
 }
 .type {
     font-family: 'Press Start 2P', cursive;
-    font-size: 1.13em;
+    font-size: 1em;
     margin-left: 8px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -379,3 +379,50 @@ a {
 .home-btn--proceed:active {
 	box-shadow: inset 3px 3px 0px 0px #E59400;
 } 
+
+@media screen and (max-width: 1024px) {
+    .start-quiz-btn {
+        font-size: 1.4em;
+        padding: 15px;
+    }
+    .home-btn{
+        font-size: 0.4em;
+        padding: 8px;
+    }
+
+    .type {
+        font-size: 0.85em;}
+
+    .frame-text-box {
+            font-size: 0.85em;}
+
+    .flavour-text {
+            font-size: 0.7em;}
+
+
+
+    }
+
+
+
+@media screen and (max-width: 768px) {
+    .start-quiz-btn {
+        font-size: 1.15em;
+        padding: 10px;
+    }
+    .home-btn{
+        font-size: 0.3em;
+        padding: 6px;
+    }
+
+    .type {
+        font-size: 0.75em;}
+
+    .frame-text-box {
+            font-size: 0.75em;}
+            
+    .flavour-text {
+            font-size: 0.6em;}
+}
+
+
