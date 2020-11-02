@@ -2,7 +2,7 @@
   body {
     box-sizing: border-box;
     background-color: #222222;
-    background: repeating-linear-gradient(-45deg, #ff3bef 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+    background: repeating-linear-gradient(-45deg, #ff3bef 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 1em 1em;
   }
     
 
@@ -14,8 +14,8 @@
 
   .card-container {
       border: 1px solid rgba(0, 0, 0, 0.027);
-      width: 500px;
-      height: 700px;
+      max-width: 31.25rem;
+      height: 43.75rem;
       margin-top: auto;
       margin-left: auto;
       border-radius: 15px;
@@ -24,8 +24,8 @@
       background: black;  
   }
    .card-roxana-background {
-      height: 600px;
-      margin: 20px 20px 0 20px;
+      height: 37.5rem;
+      margin: 1.3em 1.3em 0 1.3em;
       border-top-left-radius: 2px;
       border-top-right-radius: 2px;
       border-bottom-left-radius: 2px;
@@ -35,8 +35,8 @@
     
   }
   .card-jane-background {
-    height: 600px;
-    margin: 20px 20px 0 20px;
+    height: 37.5rem;
+    margin: 1.3em 1.3em 0 1.3em;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     border-bottom-left-radius: 2px;
@@ -47,8 +47,8 @@
 }
 
 .card-nadine-background {
-    height: 600px;
-    margin: 20px 20px 0 20px;
+    height: 37.5rem;
+    margin: 1.3em 1.3em 0 1.3em;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     border-bottom-left-radius: 2px;
@@ -59,8 +59,8 @@
 }
 
   .card-viet-background {
-    height: 600px;
-    margin: 20px 20px 0 20px;
+    height: 37.5rem;
+    margin: 1.3em 1.3em 0 1.3em;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     border-bottom-left-radius: 2px;
@@ -137,13 +137,13 @@
 
 .name{
     font-family: 'Press Start 2P', cursive;
-    font-size: 25px;
+    font-size: 1.6em;
     margin-left: 10px;
     margin-top: 6px;
 }
 .type {
     font-family: 'Press Start 2P', cursive;
-    font-size: 17px;
+    font-size: 1.13em;
     margin-left: 8px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -152,7 +152,7 @@
 
 #mana-icon {
     width: auto;
-    height: 32px;
+    height: 2rem;
     margin-right: 15px; 
     margin-bottom: 20px;   
 }
@@ -164,7 +164,7 @@
 
 #set-icon {
     width: auto;
-    height: 30px;
+    height: 1.875rem;
     overflow: hidden; 
     margin-right: 15px;
     margin-bottom: 20px;
@@ -182,13 +182,13 @@
     flex-direction: column;
     justify-content: space-around;    
     padding: 50px 6px;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .flavour-text {
     font-style: italic;
     padding: 10px 0;
-    font-size: 12px; 
+    font-size: 0.8em; 
     margin-bottom: 3px;
 }
 
@@ -208,11 +208,11 @@
 }
 .fbi-left{
     font-family: 'Press Start 2P', cursive;
-    font-size: 6px;
+    font-size: 0.4em;
 }
 .fbi-right {
     font-family: 'Press Start 2P', cursive;
-    font-size: 6px;
+    font-size: 0.4em;
     margin-top: 8px;
 }
 
@@ -222,7 +222,7 @@
 
  .frame-bottom-info img {
     overflow: hidden;
-    max-width: 10px;
+    max-width: 1rem;
 }
 
 
@@ -246,7 +246,7 @@ a {
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	font-size: 35px;
+	font-size: 2.3em;
     padding: 20px;
     transition: all .05s ease-in-out;
     box-shadow: 
@@ -320,7 +320,7 @@ a {
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	font-size: 10px;
+	font-size: 0.6em;
     padding: 12px;
     transition: all .05s ease-in-out;
     box-shadow: 
